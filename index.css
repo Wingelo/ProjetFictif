@@ -1,0 +1,80 @@
+/*Police*/
+
+@font-face {
+
+    font-family: 'logo';
+
+    src: url('Pyktor.ttf');
+
+}
+
+
+/*Body */
+
+body
+{
+  background : black;
+}
+
+
+/*Logo */
+
+#logo
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h1
+{
+    display: inline-block;
+    font-family: 'logo', Arial, sans-serif;
+
+    font-size: 3em;
+    font-weight: normal;
+    line-height:  70px;
+    color: #ff6600;
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+}
+
+
+/*Navigation*/
+
+/*Taille de la barre */
+.navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+/*Couleur de la barre*/
+.navbar-default {
+    background-color: #080808;
+    border-color: #080808;
+}
+/* Déplacement du text */
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #080808;
+    border-radius: 5px;
+    background-color : #080808;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ff6600;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #FFFFFF;
+    background-color: transparent;
+}
