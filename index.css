@@ -27,24 +27,16 @@ body
 }
 h1
 {
-<<<<<<< HEAD
-/*    display: inline-block;
-=======
-    display: block;
->>>>>>> header
-    font-family: 'logo', Arial, sans-serif;
-    font-size: 3em;
-    font-weight: normal;
-    line-height:  70px;
-<<<<<<< HEAD
-    color: #ff6600;
-    text-align: center;
-    text-shadow: 2px 2px 4px grey; */
-=======
-    color: #FB7D00;
-    margin-left: 25px;
+  display: block;
+      font-family: 'logo', Arial, sans-serif;
+      font-size: 3em;
+      font-weight: normal;
+      line-height:  70px;
+      color: #FB7D00;
+      margin-left: 25px;
 
->>>>>>> header
+
+
 }
 h5
 {
@@ -184,7 +176,7 @@ footer
     margin-top: 0px;
     color: #F8F8FF;
     font-family: 'Dancing Script';
-    
+
 }
 
 #Slogan3
@@ -196,7 +188,7 @@ footer
 
 }
 
-ul 
+ul
 {
     text-align: center;
 }
@@ -210,4 +202,3 @@ a
     font-family: 'Dancing Script';
 
 }
-
