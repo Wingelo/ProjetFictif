@@ -4,7 +4,7 @@
 
     font-family: 'logo';
 
-    src: url('Pyktor.ttf');
+    src: url('DancingScript-Bold.ttf');
 
 }
 
@@ -19,50 +19,73 @@ body
 
 /*Logo */
 
-#logo
+.logo
 {
+
     display: inline-block;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin : 0 auto;
 }
 h1
 {
+<<<<<<< HEAD
 /*    display: inline-block;
+=======
+    display: block;
+>>>>>>> header
     font-family: 'logo', Arial, sans-serif;
-
     font-size: 3em;
     font-weight: normal;
     line-height:  70px;
+<<<<<<< HEAD
     color: #ff6600;
     text-align: center;
     text-shadow: 2px 2px 4px grey; */
-}
+=======
+    color: #FB7D00;
+    margin-left: 25px;
 
+>>>>>>> header
+}
+h5
+{
+    display: block;
+    font-family: 'logo', Arial, sans-serif;
+
+    font-size: 25px;
+    font-weight: normal;
+    line-height:  70px;
+    color: #FB7D00;
+    text-align: center;
+
+}
 
 /*Navigation*/
 
 /*Taille de la barre */
 .navbar {
     position: relative;
-    min-height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border: 1px solid transparent;
+    text-align: center;
+
   }
 /*Couleur de la barre*/
 .navbar-default {
     background-color: #080808;
-    border-color: #080808;
+    border-top: 1px solid #FB7D00;
+    border-bottom: 1px solid #FB7D00;
 }
 /* Déplacement du text */
 .navbar-nav > li > a {
     padding-top: 25px;
     padding-bottom: 15px;
-
 }
+
 
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
+    margin-bottom:15px;
     margin-right: auto;
     margin-left: auto;
     border: 2px solid #080808;
@@ -71,12 +94,70 @@ h1
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ff6600;
+    color: #FB7D00;
+    font-family: 'logo';
+    font-size: 23px;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color: #FFFFFF;
+    color: white;
+    background-color: transparent;;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #FB7D00;
+    background-color: #080808;
+}
+
+.dropdown-menu {
+  background-color:#080808;
+}
+
+.dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+{
+  color: #FB7D00;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #F9F4F4;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #FB7D00;
+    text-decoration: none;
     background-color: transparent;
+  }
+.dropdown-menu > li > a
+{
+  color: #FB7D00;
+  font-family: 'logo';
+  font-size: 23px;
+  text-align: center;
+}
+
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/* Nav */
+
+/* Carrousel  */
+#owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+}
+
+#couleur
+{
+  background: white;
+  padding-top: 15px;
+  border: none
 }
 
 footer
