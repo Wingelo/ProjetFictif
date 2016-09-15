@@ -152,6 +152,20 @@ h5
   border: none
 }
 
+.col-sm-6
+{
+  height: 300px;
+}
+
+#event
+{
+  border-right: 1px solid #ff6600;
+  height: 260px;
+
+}
+
+
+
 footer
 {
  position: absolute;
